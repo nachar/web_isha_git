@@ -1,0 +1,25 @@
+<nav class="navbar block block-system contextual-links-region block-menu" role="navigation">
+	<div class="contextual-links-wrapper contextual-links-processed"><a class="contextual-links-trigger" href="#">Configurar</a><ul class="contextual-links"><li class="menu-list first"><a href="/web_mgr/admin/structure/menu/manage/main-menu/list?destination=node/1">Listar enlaces</a></li>
+<li class="menu-edit"><a href="/web_mgr/admin/structure/menu/manage/main-menu/edit?destination=node/1">Editar menú</a></li>
+<li class="block-configure last"><a href="/web_mgr/admin/structure/block/manage/system/main-menu/configure?destination=node/1">Configurar bloque</a></li>
+</ul></div>
+	<div class="container-fluid">
+		<div class="navbar-header">
+
+			<div id="nav-icon1" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span></span><span></span><span></span>
+			</div>
+
+			<a class="navbar-brand" href="http://localhost/web_mgr">
+				<div class="logoContenedor"> <img src="http://localhost/web_mgr/sites/all/themes/mgrthm/imagenes/genericos/logo_small.png" alt="mgr"> </div>
+			</a>
+		</div>
+
+		<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav"><li class="text-center"><a href="/web_mgr/" class="active">Inicio</a></li><li class="text-center"><a href="/web_mgr/nosotros">Nosotros</a></li>
+  			<li class="dropdown text-center">
+  				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-hover="dropdown" data-animations="fadeInUp">Inmobiliaria<span class="glyphicon glyphicon-menu-down"></span></a><ul class="dropdown-menu"><li class="text-center"><a href="/web_mgr/inmobiliaria">Info. Marina</a></li><li class="text-center"><a href="/web_mgr/master-plan">Master Plan</a></li><li class="text-center"><a href="/web_mgr/departamentos">Departamentos</a></li><li class="text-center"><a href="/web_mgr/casas">Casas</a></li><li class="text-center"><a href="/web_mgr/departamentos-amoblados">Departamentos Amoblados</a></li><li class="text-center"><a href="/web_mgr/propiedad-fraccionada">Propiedad Fraccionada</a></li></ul></li>
+  			<li class="dropdown text-center">
+  				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" data-hover="dropdown" data-animations="fadeInUp">Actividades<span class="glyphicon glyphicon-menu-down"></span></a><ul class="dropdown-menu"><li class="text-center"><a href="/web_mgr/golf">Golf</a></li><li class="text-center"><a href="/web_mgr/n%C3%A1uticas">Náuticas</a></li><li class="text-center"><a href="/web_mgr/outdoor">Outdoor</a></li><li class="text-center"><a href="/web_mgr/eventos">Eventos</a></li></ul></li><li class="text-center"><a href="/web_mgr/contacto">Contacto</a></li></ul>		</div>
+	</div>
+</nav>

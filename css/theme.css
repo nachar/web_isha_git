@@ -1,0 +1,126 @@
+/******* General ********/
+body {
+     color: #9d9d9d;
+     font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+     margin: 0;
+}
+img {
+     width: 100%;
+}
+a:hover {
+     text-decoration: none;
+}
+.row{
+     margin: 0 !important;
+     padding: 0 !important;
+}
+.BG-blue {
+     background: #2196f3;
+     color: #FFFFFF;
+}
+.navbar {
+     height: 100px;
+     margin-bottom: 0;
+}
+.navbar-brand {
+     width: 150px;
+}
+.navbar-right {
+     margin-top: 23px;
+}
+.navbar-right a{
+     color: #FFFFFF;
+}
+
+.grid-center {
+     display: table-cell;
+     vertical-align: middle;
+     text-align: center;
+}
+.grid-center > * {
+     display: inline-block;
+     float: none;
+}
+.title{
+     width: 100%;
+     font-weight: 300;
+     padding-left: 10px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     text-transform: uppercase;
+}
+/******* Header ********/
+.pagesHeader {
+     width: 100%;
+     height: 350px;
+     background: no-repeat center center;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+
+}
+/******* TimeLine ********/
+.timeline.timeline-left .timeline-date {
+     color: #2196f3;
+     /*margin-left: -130px;*/
+     margin-left: -135px;
+     font-size: 16px;
+     text-transform: uppercase;
+}
+.timeline.timeline-left .timeline-icon {
+     margin-left: -54px;
+}
+.timeline .timeline-icon {
+     width: 15px;
+     height: 15px;
+     background: #0e6eb1;
+     border: none;
+}
+.timeline.timeline-left::before {
+    margin-left: 90px;
+}
+.timeline.timeline-left .timeline-block {
+    margin-left: 138px;
+}
+.timeline .timeline-content {
+     background: #0e6eb1;
+     color: #FFFFFF;
+}
+.timeline.timeline-with-arrows.timeline-left .timeline-content::after {
+    border-right-color: #0e6eb1;
+}
+.timeline.timeline-with-arrows.timeline-left .timeline-content::before {
+    border-right-color: #0e6eb1;
+}
+/******* Header ********/
+footer {
+     display: table;
+     width: 100%;
+     height: 150px;
+}
+footer img{
+     width: 40px;
+     margin: 5px;
+}
+footer p {
+     margin-top: 10px;
+}
+
+
+
+
+/******* Responsive ********/
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 767px) {
+
+}
+@media (min-width: 1200px){
+     .container {
+          width: 982px;
+     }
+}
