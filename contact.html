@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Isha</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Bootstrap  CSS -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900' rel='stylesheet' type='text/css'>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/hamburguer.css">
+	<link rel="stylesheet" href="css/timelined.css">
+	<link rel="stylesheet" href="css/tablesaw.css">
+
+	<!-- Theme -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- jQuery -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+
+	<!-- Bootstrap JS-->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- <script src="js/stacktable.min.js"></script> -->
+	<script src="js/tablesaw.js"></script>
+	<script src="js/tablesaw-init.js"></script>
+
+     <!-- Google Maps -->
+	 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnM78e_5nDLgHllFfaVN0K2YMkhiJRzUI" type="text/javascript"></script>
+
+      <!-- LazyLoad - Blazy -->
+	<script src="js/blazy.min.js"></script>
+
+     <!-- JAVASCRIPT -->
+	<script src="js/app.js"></script>
+
+</head>
+<body>
+	<!-- *******************************  MENU  ******************************* -->
+	<nav class="navbar block block-system contextual-links-region block-menu BG-red" role="navigation">
+		<!--<div class="contextual-links-wrapper contextual-links-processed"><a class="contextual-links-trigger" href="#">Configurar</a><ul class="contextual-links"><li class="menu-list first"><a href="/web_mgr/admin/structure/menu/manage/main-menu/list?destination=node/1">Listar enlaces</a></li><li class="menu-edit"><a href="/web_mgr/admin/structure/menu/manage/main-menu/edit?destination=node/1">Editar menú</a></li><li class="block-configure last"><a href="/web_mgr/admin/structure/block/manage/system/main-menu/configure?destination=node/1">Configurar bloque</a></li></ul></div>-->
+		<div class="container">
+			<div class="navbar-header">
+				<div id="nav-icon1" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+
+				<a class="navbar-brand" href="index.html">
+					<img src="img/logo.png" alt="mgr">
+				</a>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+
+				<ul class="navbarContactInfo list-inline text-right">
+					<li>
+						<a href="tel:+56900000000"><span class="glyphicon glyphicon-earphone"></span> +569 0000 0000</a>
+					</li>
+
+					<li>
+						<a href="mailto:test@mail.cl">test@mail.cl</a>
+					</li>
+					<li>
+						Join us in Santiago
+					</li>
+				</ul>
+
+				<ul class="nav navbar-nav text-center">
+					<li class="text-center">
+						<a href="index.html" class="active">Home</a>
+					</li>
+					<li class="text-center">
+						<a href="registration.html">Registration</a>
+					</li>
+                         <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Program <span class="glyphicon glyphicon-menu-down"></span></a>
+                              <ul class="dropdown-menu">
+                                   <li class="text-center"><a href="content.html">Content</a></li>
+                                   <li class="text-center"><a href="agenda.html">Agenda</a></li>
+                                   <li class="text-center"><a href="speakers.html">Speakers</a></li>
+                              </ul>
+                         </li>
+					<li class="text-center">
+						<a href="information.html">Information</a>
+					</li>
+					<li class="text-center">
+						<a href="partner.html">Partner</a>
+					</li>
+					<li class="text-center">
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<ul class="navbarContactInfoResponsive list-inline text-center">
+			<li>
+				<a href="tel:+56900000000"><span class="glyphicon glyphicon-earphone"></span> +569 0000 0000</a>
+			</li>
+
+			<li>
+				<a href="mailto:test@mail.cl">test@mail.cl</a>
+			</li>
+		</ul>
+	</nav>
+
+
+
+     <!-- *******************************  Map  ******************************* -->
+     <div class="map">
+          <div class="row">
+               <div id="map"></div>
+          </div>
+     </div>
+
+	<!-- *******************************  contact form  ******************************* -->
+	<section class="contactForm">
+		<div class="contactFormContainer">
+			<div class="contactFormContent">
+				<h3 class="text-center">Say hello</h3>
+				<form>
+					<div class="form-group">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<label for="user">Username</label>
+							<input type="text" class="form-control" id="user">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+							<label for="email">E-mail</label>
+							<input type="email" class="form-control" id="email">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<label for="comment">Comment</label>
+							<textarea class="form-control" rows="3" id="comment"></textarea>
+						</div>
+					</div>
+
+					<input type="image" name="submit" src="img/submit_02.png" border="0" alt="Submit" id="contactSubmit"/>
+
+				</form>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- *******************************  Pages Footer  ******************************* -->
+	<footer>
+		<div class="grid-center">
+			<div>
+				<a href="#">
+					<img src="img/social_facebook.png" alt="">
+				</a>
+				<a href="#">
+					<img src="img/social_instagram.png" alt="">
+				</a>
+				<a href="#">
+					<img src="img/social_twitter.png" alt="">
+				</a>
+				<p>Lorem ipsum dolor | Lorem ipsum dolor</p>
+				<p>Lorem ipsum dolor</p>
+			</div>
+		</div>
+	</footer>
+
+
+</body>
+</html>

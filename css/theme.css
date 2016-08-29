@@ -51,7 +51,11 @@ a:hover {
      padding-bottom: 5px;
      text-transform: uppercase;
 }
-/******* Header ********/
+.paddingContainer {
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+/******* Index ********/
 .pagesHeader {
      width: 100%;
      height: 350px;
@@ -60,42 +64,68 @@ a:hover {
      -moz-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
-
 }
-/******* TimeLine ********/
-.timeline.timeline-left .timeline-date {
-     color: #2196f3;
-     /*margin-left: -130px;*/
-     margin-left: -135px;
-     font-size: 16px;
-     text-transform: uppercase;
+.quickAccess {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     margin-top: 30px;
+     margin-bottom: 30px;
 }
-.timeline.timeline-left .timeline-icon {
-     margin-left: -54px;
-}
-.timeline .timeline-icon {
-     width: 15px;
-     height: 15px;
-     background: #0e6eb1;
-     border: none;
-}
-.timeline.timeline-left::before {
-    margin-left: 90px;
-}
-.timeline.timeline-left .timeline-block {
-    margin-left: 138px;
-}
-.timeline .timeline-content {
-     background: #0e6eb1;
+.quickAccess li{
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     background: #2196f3;
      color: #FFFFFF;
+     padding: 17px;
 }
-.timeline.timeline-with-arrows.timeline-left .timeline-content::after {
-    border-right-color: #0e6eb1;
+.quickAccess li:nth-child(even) {
+     background: #008ce6;
 }
-.timeline.timeline-with-arrows.timeline-left .timeline-content::before {
-    border-right-color: #0e6eb1;
+.quickAccess h4 {
+     font-weight: 300;
+     font-size: 14px;
 }
-/******* Header ********/
+
+
+.newsletter {
+     padding: 20px;
+}
+.newsletter h4 {
+     color: #d81031;
+}
+.newsletter p {
+     color: #008ce6;
+}
+.newsletter h4::after {
+     content: "";
+     float: left;
+     margin-top: 12px;
+     margin-bottom: 12px;
+     width: 100%;
+     height: 1px;
+     background: #c7cdd1;
+}
+.newsletter input {
+     background: #1497ec;
+     color: #FFFFFF;
+     border: none;
+     width: 100%;
+     border-radius: 0;
+}
+.newsletter span {
+     background: #136eb3;
+     color: #FFFFFF;
+     border: none;
+     cursor: pointer;
+}
+.welcome p{
+     padding-top: 30px;
+     padding-bottom: 30px;
+}
+
+/******* Footer ********/
 footer {
      display: table;
      width: 100%;
@@ -121,6 +151,6 @@ footer p {
 }
 @media (min-width: 1200px){
      .container {
-          width: 982px;
+          width: 80%;
      }
 }
