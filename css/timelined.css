@@ -34,7 +34,7 @@
 .cbp_tmtimeline > li .cbp_tmtime span {
      display: block;
      text-align: right;
-     font-size: 1.6em;
+     font-size: 18px;
      margin-top: 3px;
      color: #239F85;
 }
@@ -140,12 +140,6 @@
           top: -20px;
      }
      .cbp_tmtimeline > li .cbp_tmicon {
-          /*
-          position: relative;
-          float: right;
-          left: auto;
-          margin: -55px 5px 0 0px;
-          */
           display: none;
      }
 }
